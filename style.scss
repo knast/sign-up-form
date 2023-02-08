@@ -7,16 +7,33 @@
     border-radius:8px;
 }
 
-.left-side {
-    flex: 1.25 1 auto;
-    
-}
+
 
 .right-side {
-    flex: 2 1 auto;
+    flex:1;
+    
 }
 
 img {
     height:1250px;
     object-fit:contain;
+}
+
+ul {
+    list-style-type:none;
+    margin-top:150px;
+}
+
+input {
+    width:60%;
+    height:40px;
+}
+
+li {
+    margin-top:50px;
+}
+
+button {
+    width:80%;
+    
 }
