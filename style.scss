@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&family=Manrope&family=Roboto:wght@300&family=Syncopate:wght@700&family=Unbounded:wght@600&display=swap');
+
+
 body {
     width:100vw;
     height:100vh;
     display:flex;
     justify-content:center;
     align-items:center;
+    font-family:'Chakra Petch', sans-serif;
 }
 
 
@@ -14,36 +18,101 @@ body {
     
     border:2px solid rgb(103, 103, 103);
     border-radius:8px;
-}
 
+    .right-side {
+        flex:1;
+        text-align:center;
 
+        ul {
+            list-style-type:none;
+            margin-top:200px;
+            position:relative;
+            bottom:85px;
+            right:13px;
 
-.right-side {
-    flex:1;
-    text-align:center;
+            input {
+                width:70%;
+                height:60px;
+                font-size:20px;
+                padding-left:15px;
+            }
+            
+            li {
+                margin-top:50px;
+            }
+            button {
+                width:90%;
+                height:70px;
+                background-color:black;
+                border:1px solid rgb(217, 217, 217);
+                font-family:'Chakra Petch', sans-serif;
+                font-size:25px;
+                color:white;
+                border-radius:8px;
+            }
+            label {
+                background-color:black;
+                color:white;
+                position:absolute;
+                padding: 3px 8px;
+                border-radius:8px;
+                font-weight:bold;
+                   
+            }
+            label[for="first-name"] {
+                top:-10px;
+                left:170px;
+            }
+            label[for="second-name"] {
+                top:105px;
+                left:170px;
+            }
+            label[for="email"] {
+                top:220px;
+                left:170px;
+            }
+            label[for="phone-number"] {
+                top:337px;
+                left:170px;
+            }
+            label[for="user-password"] {
+                top:452px;
+                left:170px;
+            }
+            label[for="confirm-password"] {
+                top: 567px;
+                left:170px;
+            }
+            label[for="rules"] {
+                background-color:white;
+                color:rgb(43, 43, 43);
+                font-size:20px;
+                margin-top:1px;
+            }
+            
+        }
+        input[type="checkbox"] {
+            height:30px;
+            width:30px;
+        }
+        h1 {
+            font-size:80px;
+        }
+    }
+    img {
+        height:1250px;
+        object-fit:contain;
+    }
+
+    .rules {
+        text-align:left;
+        position:relative;
+        left:110px;
+    }
+
     
+
 }
 
-img {
-    height:1250px;
-    object-fit:contain;
-}
 
-ul {
-    list-style-type:none;
-    margin-top:200px;
-}
 
-input {
-    width:70%;
-    height:40px;
-}
-
-li {
-    margin-top:50px;
-}
-
-button {
-    width:80%;
-    height:50px;
-}

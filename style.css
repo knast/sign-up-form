@@ -1,9 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&family=Manrope&family=Roboto:wght@300&family=Syncopate:wght@700&family=Unbounded:wght@600&display=swap");
 body {
   width: 100vw;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Chakra Petch", sans-serif;
 }
 
 .container {
@@ -13,34 +15,89 @@ body {
   border: 2px solid rgb(103, 103, 103);
   border-radius: 8px;
 }
-
-.right-side {
+.container .right-side {
   flex: 1;
   text-align: center;
 }
-
-img {
+.container .right-side ul {
+  list-style-type: none;
+  margin-top: 200px;
+  position: relative;
+  bottom: 85px;
+  right: 13px;
+}
+.container .right-side ul input {
+  width: 70%;
+  height: 60px;
+  font-size: 20px;
+  padding-left: 15px;
+}
+.container .right-side ul li {
+  margin-top: 50px;
+}
+.container .right-side ul button {
+  width: 90%;
+  height: 70px;
+  background-color: black;
+  border: 1px solid rgb(217, 217, 217);
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 25px;
+  color: white;
+  border-radius: 8px;
+}
+.container .right-side ul label {
+  background-color: black;
+  color: white;
+  position: absolute;
+  padding: 3px 8px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.container .right-side ul label[for=first-name] {
+  top: -10px;
+  left: 170px;
+}
+.container .right-side ul label[for=second-name] {
+  top: 105px;
+  left: 170px;
+}
+.container .right-side ul label[for=email] {
+  top: 220px;
+  left: 170px;
+}
+.container .right-side ul label[for=phone-number] {
+  top: 337px;
+  left: 170px;
+}
+.container .right-side ul label[for=user-password] {
+  top: 452px;
+  left: 170px;
+}
+.container .right-side ul label[for=confirm-password] {
+  top: 567px;
+  left: 170px;
+}
+.container .right-side ul label[for=rules] {
+  background-color: white;
+  color: rgb(43, 43, 43);
+  font-size: 20px;
+  margin-top: 1px;
+}
+.container .right-side input[type=checkbox] {
+  height: 30px;
+  width: 30px;
+}
+.container .right-side h1 {
+  font-size: 80px;
+}
+.container img {
   height: 1250px;
   object-fit: contain;
 }
-
-ul {
-  list-style-type: none;
-  margin-top: 200px;
-}
-
-input {
-  width: 70%;
-  height: 40px;
-}
-
-li {
-  margin-top: 50px;
-}
-
-button {
-  width: 80%;
-  height: 50px;
+.container .rules {
+  text-align: left;
+  position: relative;
+  left: 110px;
 }
 
 /*# sourceMappingURL=style.css.map */
