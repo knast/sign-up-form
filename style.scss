@@ -1,7 +1,22 @@
 .container {
     display:flex;
-    width:1200px;
-    height:800px;
-    margin:100px auto;
-    border:2px solid black;
+    width:1700px;
+    height:1250px;
+    margin:300px auto;
+    border:2px solid rgb(103, 103, 103);
+    border-radius:8px;
+}
+
+.left-side {
+    flex: 1.25 1 auto;
+    
+}
+
+.right-side {
+    flex: 2 1 auto;
+}
+
+img {
+    height:1250px;
+    object-fit:contain;
 }
