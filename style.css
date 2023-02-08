@@ -1,14 +1,22 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .container {
   display: flex;
   width: 1700px;
   height: 1250px;
-  margin: 300px auto;
   border: 2px solid rgb(103, 103, 103);
   border-radius: 8px;
 }
 
 .right-side {
   flex: 1;
+  text-align: center;
 }
 
 img {
@@ -18,11 +26,11 @@ img {
 
 ul {
   list-style-type: none;
-  margin-top: 150px;
+  margin-top: 200px;
 }
 
 input {
-  width: 60%;
+  width: 70%;
   height: 40px;
 }
 
@@ -32,6 +40,7 @@ li {
 
 button {
   width: 80%;
+  height: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
