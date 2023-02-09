@@ -37,6 +37,7 @@ body {
                 padding-left:15px;
             }
             
+            
             li {
                 margin-top:50px;
             }
@@ -49,6 +50,11 @@ body {
                 font-size:25px;
                 color:white;
                 border-radius:8px;
+            }
+            button:hover {
+                background-color:rgb(31, 31, 31);
+                color:rgb(224, 224, 224);
+                transition:0.5s;
             }
             label {
                 background-color:black;
@@ -113,6 +119,7 @@ body {
     
 
 }
+
 
 
 

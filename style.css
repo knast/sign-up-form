@@ -45,6 +45,11 @@ body {
   color: white;
   border-radius: 8px;
 }
+.container .right-side ul button:hover {
+  background-color: rgb(31, 31, 31);
+  color: rgb(224, 224, 224);
+  transition: 0.5s;
+}
 .container .right-side ul label {
   background-color: black;
   color: white;
