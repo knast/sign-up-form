@@ -35,11 +35,11 @@
                     </li>
                     <li>
                         <label for="user-password">Password</label>
-                        <input class="error" type="password" id="user-password" name="user_password" required>
+                        <input class="error" type="password" id="user-password" name="user_password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
                     </li>
                     <li>
                         <label for="confirm-password">Confirm Password</label>
-                        <input class="error" type="password" id="confirm-password" name="confirm_password" minlength="5" required>
+                        <input class="error" type="password" id="confirm-password" name="confirm_password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" minlength="5" required>
                     </li>
                     <li class="rules">
                         <input type="checkbox" id="rules" name="accepts_rules" minlength="5" required>
